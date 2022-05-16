@@ -4,7 +4,6 @@ using Azure.Storage.Blobs.Models;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
 using TableEntity = Microsoft.WindowsAzure.Storage.Table.TableEntity;
-using System.Numerics;
 
 namespace Api
 {
