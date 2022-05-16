@@ -17,7 +17,6 @@ namespace Api
 
             BlobContainerClient containerClient = new BlobContainerClient(connectionString, "<YOUR-CONTAINER>");
 
-            //TODO uppdatera
             string wantedBlob = "YYYYMMDDHHMM";
         
             await foreach (BlobItem blobItem in containerClient.GetBlobsAsync()) {
